@@ -13,14 +13,14 @@ import java.util.ArrayList;
  */
 public class Maestros {
     private String nombre,apellido;
-    private float salario;
+    private double salario;
     private int edad;
     private ArrayList <Clases> lista=new ArrayList();
 
     public Maestros() {
     }
 
-    public Maestros(String nombre, String apellido, float salario, int edad) {
+    public Maestros(String nombre, String apellido, double salario, int edad) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.salario = salario;
@@ -43,7 +43,7 @@ public class Maestros {
         this.apellido = apellido;
     }
 
-    public float getSalario() {
+    public double getSalario() {
         return salario;
     }
 
@@ -69,7 +69,9 @@ public class Maestros {
 
     @Override
     public String toString() {
-        return "Maestros{" + "nombre=" + nombre + '}';
+        return "nombre=" + nombre + ", apellido=" + apellido + ", salario=" + salario + ", edad=" + edad + ", lista=" + lista + '}';
     }
+
+   
     
 }
