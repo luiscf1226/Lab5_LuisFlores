@@ -31,7 +31,7 @@ public class Maestros {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
+    public void setNombre2(String nombre) {
         this.nombre = nombre;
     }
 
@@ -47,7 +47,7 @@ public class Maestros {
         return salario;
     }
 
-    public void setSalario(float salario) {
+    public void setSalario(double salario) {
         this.salario = salario;
     }
 
